@@ -1,0 +1,33 @@
+#wrapper{
+    height: auto;
+  /*  min-height: 100%;*/
+    padding-bottom: 40px;
+  }
+  /*페이지네이션 div*/
+#footer{
+    height: 40px;
+    position : relative;
+    transform : translateY(-100%);
+    margin-right: auto;
+  }
+ 
+ /*페이지네이션 네비게이션 태그*/
+ .navPagination{
+ 	width:500px;
+ 	margin:auto;
+    border: 1px solid white;
+	border-radius: 10px;
+	
+ }
+ /*페이지네이션 ul 태그*/
+.pagination{
+	   border-radius: 10px;
+       border: 1px solid white;
+       background-color: white;
+	   
+}   
+
+.pagination .page-item{
+	      border: 1px solid white;
+} 
+
